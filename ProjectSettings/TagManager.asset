@@ -44,3 +44,6 @@ TagManager:
   - name: Structure & Environments
     uniqueID: 3606743583
     locked: 0
+  - name: Player
+    uniqueID: 1032744141
+    locked: 0
