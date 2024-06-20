@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8001740341350020725}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.63, y: 3.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -120,7 +120,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.4798575, y: 0.23131816}
     oldSize: {x: 0.52734375, y: 0.75}
     newSize: {x: 0.52734375, y: 0.75}
     adaptiveTilingThreshold: 0.5
@@ -129,10 +129,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.025942564, y: 0.010604382}
-      - {x: -0.00026333332, y: 0.0040091276}
-      - {x: 0.04692495, y: 0.030434728}
-      - {x: 0.0454911, y: 0.14837873}
-      - {x: -0.05623734, y: 0.20276845}
-      - {x: -0.058136344, y: 0.02927816}
+    - - {x: -0.009814262, y: -0.1656537}
+      - {x: 0.022776961, y: -0.166489}
+      - {x: 0.05498922, y: -0.14236724}
+      - {x: 0.05470717, y: -0.031335473}
+      - {x: -0.040109277, y: 0.027662396}
+      - {x: -0.039704204, y: -0.14352381}
   m_UseDelaunayMesh: 0
