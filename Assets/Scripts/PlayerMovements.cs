@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,11 @@ public class PlayerMovements : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
-    private float moveH, moveV;
+    Vector2 moveInput;
+    Vector2 lastMoveInput;
+    public Vector2 forceToApply;
+    public float forceDamping;
+    Boolean isRunning;
     [SerializeField] private float moveSpeed = 1.0f;
 
     private void Awake()
@@ -16,40 +21,41 @@ public class PlayerMovements : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
-
+    private void Update()
+    {
+        SetAnimation();
+    }
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(moveH * moveSpeed, moveV * moveSpeed);
-
-        Vector2 direction = new Vector2(moveH, moveV);
-
-        animator.SetTrigger(AnimationEffects());
+        Movement();
     }
-
-    string AnimationEffects()
+    private void OnMove(InputValue value)
     {
-        if (moveH > 0)
+        float moveH = value.Get<Vector2>().x;
+        float moveV = value.Get<Vector2>().y;
+        if ((moveH == 0 && moveV == 0) && moveInput.x != 0 || moveInput.y != 0)
         {
-            return "E";
+            lastMoveInput = moveInput;
         }
-        if (moveH < 0)
-        {
-            return "W";
-        }
-        if (moveV > 0)
-        {
-            return "N";
-        }
-        if (moveV < 0)
-        {
-            return "S";
-        }
-        return null;
+        moveInput = new Vector2(moveH, moveV).normalized;
     }
-
-    public void Move(InputAction.CallbackContext callbackContext)
+    private void Movement()
     {
-        moveH = callbackContext.ReadValue<Vector2>().x;
-        moveV = callbackContext.ReadValue<Vector2>().y;
+        Vector2 moveForce = moveInput * moveSpeed;
+        moveForce += forceToApply;
+        forceToApply /= forceDamping;
+        if (Mathf.Abs(forceToApply.x) <= 0.01f && Mathf.Abs(forceToApply.y) <= 0.01f)
+        {
+            forceToApply = Vector2.zero;
+        }
+        rb.velocity = moveForce;
+    }
+    void SetAnimation()
+    {
+        animator.SetFloat("MoveX", moveInput.x);
+        animator.SetFloat("MoveY", moveInput.y);
+        animator.SetFloat("MoveMagnitude", moveInput.magnitude);
+        animator.SetFloat("LastMoveX", lastMoveInput.x);
+        animator.SetFloat("LastMoveY", lastMoveInput.y);
     }
 }
