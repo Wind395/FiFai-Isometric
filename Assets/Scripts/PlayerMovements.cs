@@ -48,7 +48,7 @@ public class PlayerMovements : MonoBehaviour
         {
             forceToApply = Vector2.zero;
         }
-        rb.velocity = moveForce;
+        rb.velocity = moveInput * moveSpeed;
     }
     void SetAnimation()
     {

@@ -1,0 +1,9 @@
+id	name	content
+1	Player	Chào trưởng làng, ông có thể cho cháu biết cách đến vương đô được không?
+2	NPC	Một cô nhóc mới lớn như cháu định đến vương đô có việc gì?
+3	Player	Nhìn như vậy thôi cháu cũng là đồ đệ mạnh nhất của pháp sư khởi nguyên đấy
+4	NPC	Pháp sư khởi nguyên sao, cái tên này ta có nghe qua; có phải vị pháp sư ở khu rừng sau làng đúng không?
+5	Player	Vâng đúng rồi, vậy ông có thể chỉ cho cháu biết đường với ạ
+6	NPC	Tuy là đệ tử của pháp sư khởi nguyên nhưng ta vẫn hơi lo vì đường đến đó rất nhiều ma thú mạnh
+7	Player	Vậy cháu có thể làm gì để ông tin tưởng?
+8	NPC	Vậy đi, hãy vào rừng tiêu diệt 10 con slime đột biến rồi về báo cáo với ta
