@@ -1,0 +1,1491 @@
+fileFormatVersion: 2
+guid: 056ba7dd9bb874f498596a6d0c49386c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Isometric Assets 2_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2315
+        width: 214
+        height: 233
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be4727adf5f34c4abd355b337b91f24
+      internalID: 467478976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_1
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 2319
+        width: 212
+        height: 226
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a384802041f46bb48bd7e67916935913
+      internalID: 993502335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_2
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 2321
+        width: 217
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f3e572e2cc7af45950f3d8d722419f
+      internalID: -557767286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_3
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 2323
+        width: 213
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd1fe06af310f94cb0a2b8436e5f488
+      internalID: 1904438482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_5
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 2313
+        width: 211
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3973371ed0e2f14e85d930b84b6b9e1
+      internalID: -509129662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2325
+        width: 209
+        height: 178
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181f40b9c887ac74ab4eee37a77fd75c
+      internalID: 133196721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_8
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 2323
+        width: 215
+        height: 186
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a60189ad81b6e4eb3d9b8324e20dc7
+      internalID: -1502770270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_9
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 2334
+        width: 180
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f870ae454444cf43924f75523db2324
+      internalID: -1584968632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_10
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 2326
+        width: 175
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5095912, y: 0.44431338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866c8d2ed6d3f644ab87bc268731d927
+      internalID: -1135549977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_11
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 2334
+        width: 176
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab63b9d16e0dc64eb0be10454319cf8
+      internalID: -60219002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2103
+        width: 159
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5161e7193fb1f0342903b389625fec5c
+      internalID: -1789445010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_13
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2103
+        width: 90
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aa527d6fa13fb4f9caaa2d922eb7a4
+      internalID: -388333381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_15
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 2074
+        width: 168
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7955b590bb8339f4f9d76e2b4bbb66e7
+      internalID: 1588902839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_16
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 2093
+        width: 146
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae465de8db4c7fe438959de6309b9ac6
+      internalID: -1449633901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_17
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 2070
+        width: 215
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6cd46bff80037428073aed525e18f0
+      internalID: 341657898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_18
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 2083
+        width: 165
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa7ed1b1a373b647b8443d465e795e8
+      internalID: -1201205667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_19
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2050
+        width: 252
+        height: 255
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8df180a9e88a14aa5f27bb4de413d2
+      internalID: -618289569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2105
+        width: 144
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b6f9505394cd549978a4316c2bcc1f
+      internalID: 1823287608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_21
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 2095
+        width: 116
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37472a80b26028945b2b765707439b0f
+      internalID: 2143455317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_22
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 2083
+        width: 164
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f1b8f7a24e3b042bb3adcb118ad609
+      internalID: 1972621647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1801
+        width: 225
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbf4f24315cacf43921a9ea0a955367
+      internalID: -2108418994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_24
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1803
+        width: 212
+        height: 235
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308a4dacabbf0724599b83669cc23457
+      internalID: -1705152075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_25
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1809
+        width: 196
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ec1ec4a27a2b241b7afa570ebae24d
+      internalID: 1609152714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_26
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1806
+        width: 200
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e83804af1e4bd47bf14cffa5876180
+      internalID: -609439522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_28
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1810
+        width: 197
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc956fff522cc449ac3cc9686c82906
+      internalID: -188218488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_31
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1836
+        width: 165
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6ec83915389df4fae11e2c4410ccbc
+      internalID: 624115535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_32
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1830
+        width: 175
+        height: 175
+      alignment: 9
+      pivot: {x: 0.53, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a774c01463d2a3648ba0aa11589a93d4
+      internalID: -1552966759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_33
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1818
+        width: 162
+        height: 175
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1820cef7ea3fa4f468e940928e4e3a02
+      internalID: -1040245979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_34
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 1814
+        width: 152
+        height: 177
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08108f5b56ae9654b98520f23304de9d
+      internalID: -1612206015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_35
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1818
+        width: 144
+        height: 190
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198d4e35eaefb8b4283c56d20b5ca8ba
+      internalID: -1195240223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1324
+        width: 462
+        height: 410
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d6f95230687e749950b8325bb662b9
+      internalID: 746532608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_38
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1298
+        width: 331
+        height: 476
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b143cef057684974abcdf5a4754a27a7
+      internalID: -753761425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_39
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1579
+        width: 143
+        height: 199
+      alignment: 9
+      pivot: {x: 0.5049289, y: 0.27963793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee306b7ad998abf46b92ae493e4ace73
+      internalID: 424703366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_40
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1584
+        width: 165
+        height: 191
+      alignment: 9
+      pivot: {x: 0.4241788, y: 0.25629973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0dbdc604e713f429bfe4a54ca6222b
+      internalID: -61665148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_41
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1570
+        width: 161
+        height: 206
+      alignment: 9
+      pivot: {x: 0.56544256, y: 0.22783594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f202a80579800bc40b3b6d06daee4b7c
+      internalID: -42119959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_42
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 1584
+        width: 137
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9429aeced982e4c49af248d93ba7ab8b
+      internalID: -749212258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_43
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1595
+        width: 151
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20d21630579ef344a594945a84a2f9f
+      internalID: -1748861668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_44
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1576
+        width: 163
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef0eae9446698a4491a7256705bc6a2
+      internalID: 1045526716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_46
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1334
+        width: 135
+        height: 192
+      alignment: 9
+      pivot: {x: 0.4798575, y: 0.23131816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8771d6cb21a5e4c97f2a57e00dc4d0
+      internalID: -183714321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_47
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1328
+        width: 155
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5190028, y: 0.2292685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fd046edee58b443bf0f249a97b8fd6
+      internalID: 1671782233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_49
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1325
+        width: 154
+        height: 183
+      alignment: 9
+      pivot: {x: 0.37759122, y: 0.20924053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5b57653aa0d224a8f56974ce3015b4
+      internalID: -644515615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_50
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1306
+        width: 172
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2d9ae0cefe72a4684b00d173327538
+      internalID: -1895564424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_52
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1311
+        width: 162
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ff65cd0be09b447bec20cc00468607
+      internalID: -164866335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_53
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 1329
+        width: 131
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe41f86c99fd1c41931fa412eff2da9
+      internalID: -1112317457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_56
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 808
+        width: 217
+        height: 343
+      alignment: 9
+      pivot: {x: 0.64, y: 0.085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fa7a899e150e745827cc0adc8de38e
+      internalID: -1593223992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_57
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 38
+        width: 541
+        height: 843
+      alignment: 9
+      pivot: {x: 0.48, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462420df111362d40a554ce21d793926
+      internalID: -1434387524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_58
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 806
+        width: 228
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d1dd01193cd124996257ab1cc358b8
+      internalID: 1229852910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_59
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 804
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e2a2ff9bbb5f143ae072b369e08e6f
+      internalID: -2088097270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_60
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 31
+        width: 595
+        height: 838
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8db7faf8f4f534c9023ab9aefd35e4
+      internalID: 1933201167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_61
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 798
+        width: 352
+        height: 291
+      alignment: 9
+      pivot: {x: 0.52, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f6de79af95b8c4fa6a9aa21cc6e765
+      internalID: 1583618281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_62
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 563
+        width: 116
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c0e2060162f2144af47a5e2bc406c9
+      internalID: -1444120507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_63
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 578
+        width: 204
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e02be40202ce4489e98d3028376fa3
+      internalID: -1391874994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_64
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 540
+        width: 176
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9165f9e2b76caa745a2063a10d05e746
+      internalID: -291844489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_65
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 543
+        width: 187
+        height: 192
+      alignment: 9
+      pivot: {x: 0.53, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fda797d5e614f4f87021c9a8b2265b
+      internalID: 1525444176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_66
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 285
+        width: 163
+        height: 149
+      alignment: 9
+      pivot: {x: 0.52, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5805d1cd2269ece40a8aaeda894713e0
+      internalID: -1583618589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_67
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 280
+        width: 189
+        height: 220
+      alignment: 9
+      pivot: {x: 0.4, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4504fcf90e1cb464899fa9689d21d4f0
+      internalID: 413072005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_68
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 278
+        width: 230
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f82d703391779647bdc252e9fd8d4e4
+      internalID: 428397964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_69
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 278
+        width: 231
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5905aa2f063104fbbdf7896b2c2b36
+      internalID: 1789652674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_70
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 24
+        width: 195
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670e4393fbe1a25459e8075bcb912bc4
+      internalID: -190907452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_72
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 26
+        width: 163
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb15b85833d6c0f4e9a2073844731abf
+      internalID: -1982784499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_73
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 11
+        width: 213
+        height: 219
+      alignment: 9
+      pivot: {x: 0.54, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6a9c17d7d1daf42a2e120f092d714e
+      internalID: 1003426231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Assets 2_74
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 11
+        width: 213
+        height: 219
+      alignment: 9
+      pivot: {x: 0.54, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6325494c334fe4488f61a8886049c09
+      internalID: 328132955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Isometric Assets 2_0: 467478976
+      Isometric Assets 2_1: 993502335
+      Isometric Assets 2_10: -1135549977
+      Isometric Assets 2_11: -60219002
+      Isometric Assets 2_12: -1789445010
+      Isometric Assets 2_13: -388333381
+      Isometric Assets 2_14: 1183119185
+      Isometric Assets 2_15: 1588902839
+      Isometric Assets 2_16: -1449633901
+      Isometric Assets 2_17: 341657898
+      Isometric Assets 2_18: -1201205667
+      Isometric Assets 2_19: -618289569
+      Isometric Assets 2_2: -557767286
+      Isometric Assets 2_20: 1823287608
+      Isometric Assets 2_21: 2143455317
+      Isometric Assets 2_22: 1972621647
+      Isometric Assets 2_23: -2108418994
+      Isometric Assets 2_24: -1705152075
+      Isometric Assets 2_25: 1609152714
+      Isometric Assets 2_26: -609439522
+      Isometric Assets 2_27: -1174515788
+      Isometric Assets 2_28: -188218488
+      Isometric Assets 2_29: 318905905
+      Isometric Assets 2_3: 1904438482
+      Isometric Assets 2_30: -1625730362
+      Isometric Assets 2_31: 624115535
+      Isometric Assets 2_32: -1552966759
+      Isometric Assets 2_33: -1040245979
+      Isometric Assets 2_34: -1612206015
+      Isometric Assets 2_35: -1195240223
+      Isometric Assets 2_36: 746532608
+      Isometric Assets 2_37: 281978190
+      Isometric Assets 2_38: -753761425
+      Isometric Assets 2_39: 424703366
+      Isometric Assets 2_4: -1297944707
+      Isometric Assets 2_40: -61665148
+      Isometric Assets 2_41: -42119959
+      Isometric Assets 2_42: -749212258
+      Isometric Assets 2_43: -1748861668
+      Isometric Assets 2_44: 1045526716
+      Isometric Assets 2_45: 164659044
+      Isometric Assets 2_46: -183714321
+      Isometric Assets 2_47: 1671782233
+      Isometric Assets 2_48: 1617692043
+      Isometric Assets 2_49: -644515615
+      Isometric Assets 2_5: -509129662
+      Isometric Assets 2_50: -1895564424
+      Isometric Assets 2_51: -101362651
+      Isometric Assets 2_52: -164866335
+      Isometric Assets 2_53: -1112317457
+      Isometric Assets 2_54: -354132743
+      Isometric Assets 2_55: -482024958
+      Isometric Assets 2_56: -1593223992
+      Isometric Assets 2_57: -1434387524
+      Isometric Assets 2_58: 1229852910
+      Isometric Assets 2_59: -2088097270
+      Isometric Assets 2_6: 133196721
+      Isometric Assets 2_60: 1933201167
+      Isometric Assets 2_61: 1583618281
+      Isometric Assets 2_62: -1444120507
+      Isometric Assets 2_63: -1391874994
+      Isometric Assets 2_64: -291844489
+      Isometric Assets 2_65: 1525444176
+      Isometric Assets 2_66: -1583618589
+      Isometric Assets 2_67: 413072005
+      Isometric Assets 2_68: 428397964
+      Isometric Assets 2_69: 1789652674
+      Isometric Assets 2_7: 332039727
+      Isometric Assets 2_70: -190907452
+      Isometric Assets 2_71: 96845054
+      Isometric Assets 2_72: -1982784499
+      Isometric Assets 2_73: 1003426231
+      Isometric Assets 2_74: 328132955
+      Isometric Assets 2_8: -1502770270
+      Isometric Assets 2_9: -1584968632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

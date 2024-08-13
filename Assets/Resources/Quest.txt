@@ -1,0 +1,2 @@
+storyID	qip	name	description	xpReward	coinReward	requiment
+1	1	Sự Tin Tưởng	Tiêu diệt 10 con slime đột biến để có được sự tin tưởng của ông lão và biết đường đến Vương Đô	200	100	10

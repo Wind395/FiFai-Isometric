@@ -1,0 +1,6 @@
+id	character	content
+1	Fox	Sao bạn còn đứng đây? Mau đi đi kẻo trời tối mất
+2	Player	Tôi còn chuẩn bị 1 vài thứ rồi mới lên đường
+3	Fox	Uk, nhanh còn đi cho sớm
+4	Player	Tôi biết rồi, tôi đi đây
+5	Fox	Cẩn thận

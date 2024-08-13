@@ -1,0 +1,13 @@
+id	character	content
+1	Player	Tôi về rồi đây
+2	Fox	Thế nào rồi? Ổn chứ?
+3	Player	Tất nhiên rồi
+4	Player	Dễ như ăn cháo vậy, rẹt cái là xong thôi
+5	Fox	Ghê vậy ư? Đâu tôi xem nào
+6	Fox	Tốt lắm đúng là đã hoàn thành nhiệm vụ
+7	Fox	Tôi không ngờ bạn làm nhanh vậy
+8	Player	Vậy bây giờ chỉ đường cho tôi được chưa?
+9	Fox	Được thôi, hãy đi tới thành phố A, ra cổng tây, rẽ phải rồi đi hết đường là tới
+10	Player	Cảm ơn nhé
+11	Fox	Cẩn thận nhé, chỗ đó nguy hiểm lắm
+12	Player	Cảm ơn bạn, tôi biết rồi.
