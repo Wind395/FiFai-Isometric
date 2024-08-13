@@ -1549,9 +1549,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingLayerID: -688223713
+  m_SortingLayer: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -644306353, guid: 2d013cad6847c944297a4ad808ab97cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4370,7 +4370,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0000000018624755, y: 1.5011999e-11, z: -2.795948e-20, w: 1}
-  m_LocalPosition: {x: 2.84, y: 7.21, z: -10}
+  m_LocalPosition: {x: 2.928, y: 2.631, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11013,7 +11013,7 @@ Transform:
   m_GameObject: {fileID: 1527349392}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0000000018624755, y: 1.5011999e-11, z: -2.795948e-20, w: 1}
-  m_LocalPosition: {x: 2.84, y: 7.21, z: -10}
+  m_LocalPosition: {x: 2.928, y: 2.631, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -66406,6 +66406,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4964456156445336877, guid: 0619318457d8bed42b414215c9bbb6f9, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964456156445336877, guid: 0619318457d8bed42b414215c9bbb6f9, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -688223713
+      objectReference: {fileID: 0}
     - target: {fileID: 5795705269619700098, guid: 0619318457d8bed42b414215c9bbb6f9, type: 3}
       propertyPath: m_Name
       value: House 1
@@ -66899,6 +66907,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1212560298754107980, guid: 383595291332fc347925bb9cf7ae9a07, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1212560298754107980, guid: 383595291332fc347925bb9cf7ae9a07, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -688223713
+      objectReference: {fileID: 0}
     - target: {fileID: 1861059861579963295, guid: 383595291332fc347925bb9cf7ae9a07, type: 3}
       propertyPath: m_Name
       value: Witch
@@ -66909,11 +66925,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8272876380711540903, guid: 383595291332fc347925bb9cf7ae9a07, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.84
+      value: 2.928
       objectReference: {fileID: 0}
     - target: {fileID: 8272876380711540903, guid: 383595291332fc347925bb9cf7ae9a07, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.21
+      value: 2.631
       objectReference: {fileID: 0}
     - target: {fileID: 8272876380711540903, guid: 383595291332fc347925bb9cf7ae9a07, type: 3}
       propertyPath: m_LocalPosition.z
