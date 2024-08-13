@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4500371165222525730}
   - component: {fileID: 2236623566099647070}
   - component: {fileID: 7700258052108155773}
+  - component: {fileID: 4895861932962305612}
   m_Layer: 6
   m_Name: Witch
   m_TagString: Untagged
@@ -187,6 +188,8 @@ MonoBehaviour:
   LastDirection: {x: 0, y: 0}
   CurrentDirection: {x: 0, y: 0}
   speed: 2
+  bulletPrefab: {fileID: 1070524318846041246, guid: fe1e939eb17ea9846b3cf59add65bda7, type: 3}
+  fireForce: 10
 --- !u!114 &7700258052108155773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,3 +220,69 @@ MonoBehaviour:
   m_DefaultActionMap: Movement
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &4895861932962305612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861059861579963295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dffd31b02a824543a0a2bb49c709b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerBase:
+    level: 0
+    curentExp: 0
+    requireExp: 0
+    currentHp: 0
+    currentMana: 0
+    hp: 0
+    mana: 0
+    str: 0
+    agi: 0
+    intel: 0
+    pAtk: 0
+    mAtk: 0
+    pDef: 0
+    mDef: 0
+    avoid: 0
+    critical: 0
+    speedMove: 0
+  playerExtra:
+    level: 0
+    curentExp: 0
+    requireExp: 0
+    currentHp: 0
+    currentMana: 0
+    hp: 0
+    mana: 0
+    str: 0
+    agi: 0
+    intel: 0
+    pAtk: 0
+    mAtk: 0
+    pDef: 0
+    mDef: 0
+    avoid: 0
+    critical: 0
+    speedMove: 0
+  playerInfor:
+    level: 0
+    curentExp: 0
+    requireExp: 0
+    currentHp: 0
+    currentMana: 0
+    hp: 0
+    mana: 0
+    str: 0
+    agi: 0
+    intel: 0
+    pAtk: 0
+    mAtk: 0
+    pDef: 0
+    mDef: 0
+    avoid: 0
+    critical: 0
+    speedMove: 0

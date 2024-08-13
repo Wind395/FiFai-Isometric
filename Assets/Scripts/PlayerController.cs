@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,8 +11,11 @@ namespace Latina
         [SerializeField] Vector2 LastDirection;
         [SerializeField] Vector2 CurrentDirection;
         [SerializeField] float speed;
+        [SerializeField] GameObject bulletPrefab;
+        [SerializeField] float fireForce;
         private Animator animator;
         Rigidbody2D rb;
+        Vector2 mousePosition;
         void Start()
         {
             rb = GetComponent<Rigidbody2D>();
@@ -29,17 +33,28 @@ namespace Latina
             CurrentDirection = new Vector2(moveX, moveY);
         }
         // Update is called once per frame
+        float aimAngle;
+        private void Update()
+        {
+            AnimationChange();
+            if(Input.GetMouseButtonDown(0)){
+                Shoot();
+            }
+            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        }
         private void FixedUpdate()
         {
             rb.velocity = CurrentDirection * speed;
             CurrentDirection.Normalize();
+            Vector2 aimDir = mousePosition - rb.position;
+            aimAngle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg - 90f;
         }
-
-        private void Update()
-        {
-            AnimationChange();
+        void Shoot(){
+            GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.Euler(0, 0, aimAngle));
+            Vector2 shootDirection = mousePosition - rb.position;
+            shootDirection.Normalize();
+            bullet.GetComponent<Rigidbody2D>().AddForce(shootDirection * fireForce, ForceMode2D.Impulse);
         }
-
         private void AnimationChange()
         {
             animator.SetFloat("MoveMagnitude", rb.velocity.magnitude);
